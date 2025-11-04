@@ -1647,3 +1647,29 @@ button {
 	body.is-preload #footer {
 		opacity: 0;
 	}
+
+/* Wrap images to the right with text flowing around */
+figure.wrap-right {
+  float: right;
+  margin: 0 0 1em 1em;
+  max-width: 40%;
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+}
+
+figure.wrap-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* On smaller screens, stop floating (stack instead) */
+@media (max-width: 768px) {
+  figure.wrap-right {
+    float: none;
+    margin: 1em auto;
+    display: block;
+    max-width: 90%;
+  }
+}}
