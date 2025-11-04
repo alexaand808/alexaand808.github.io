@@ -1672,4 +1672,15 @@ figure.wrap-right img {
     width: 80%;
     max-width: 300px;
   }
-}}
+}
+
+.fullwidth {
+  display: block;
+  width: 100vw;         /* full viewport width */
+  height: auto;
+  margin: 0;            /* remove spacing */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);  /* center image if parent has margins */
+}
