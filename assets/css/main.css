@@ -1676,7 +1676,7 @@ figure.wrap-right img {
 
 .fullwidth {
   display: block;
-  width: 100vw;         /* full viewport width */
+  width: 80vw;         /* full viewport width */
   height: auto;
   margin: 0;            /* remove spacing */
   position: relative;
